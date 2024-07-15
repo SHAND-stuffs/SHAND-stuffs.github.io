@@ -94,7 +94,8 @@ form input, form textarea {
 }
 
 footer {
-    background: #f1f1f1;
+    background: #000099;
+    color: #fff;
     text-align: center;
     padding: 20px 0;
 }
