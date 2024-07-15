@@ -74,11 +74,11 @@ section {
     margin: 0 auto;
 }
 
-.sobre, .servicos, .planos, .contato {
+.sobre, .planos, .contato {
     text-align: center;
 }
 
-.servico-item, .plano-item {
+.plano-item {
     margin-bottom: 20px;
 }
 
