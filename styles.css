@@ -73,7 +73,6 @@ section {
     width: 80%;
     margin: 0 auto;
 }
-
 .sobre, .planos, .contato {
     text-align: center;
 }
@@ -117,6 +116,46 @@ img {
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
+}
+
+.planos {
+  padding: 20px;
+  text-align: center;
+}
+
+.planos .container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.plano-item {
+      background-color: #f9f9f9;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+}
+
+.plano-item h3 {
+      margin-bottom: 10px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+}
+
+.plano-item p {
+      margin: 20px 0;
+}
+
+.plano-item .valor {
+      margin-top: 20px;
+      border-top: 1px solid #ddd;
+      padding-top: 10px;
+      font-weight: bold;
 }
 
 @keyframes fade {
